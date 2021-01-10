@@ -1,0 +1,91 @@
+@media only screen and (max-width: 1000px){
+     #kt_header_mobile{
+       display: none;
+     }
+     .reletiv{
+          position: fixed;
+          width: 100%;
+          height: 40%;
+
+     }
+     .buttom-one{
+          width: 100%;
+          height: 20%;
+          margin-top: 200%;
+          background-color: rgb(255, 255, 255);
+          box-shadow: 0 -8px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          position: relative;
+          
+     }
+     .one-title{
+          float: left;
+          text-align: none;
+          margin-left: 60px;
+          margin-top: 12px;
+          margin-bottom: 12px;
+          list-style-type: none;
+     }
+     .tow-title{
+          float: left;
+          list-style-type: none;
+          margin-top: 10px;
+
+     }
+}
+.bg-full-body{background-color: rgba(22, 22, 53, 0.767);position:fixed;top:0;left:0;z-index:1050;display:none;width:100%;height:100%;overflow:hidden;outline:0}
+
+.full-body{
+     width: 600px;
+     height: 600px;
+     background: white;
+     background-size:cover;
+     color: rgb(255, 255, 255);
+     text-align: center;
+     position: relative;
+     overflow: auto;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: auto;
+     margin-bottom: auto;
+     border-radius: 10px;
+     box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.rep{position:fixed;display:flex;width:100%;height:100%;overflow:hidden;outline:0}
+
+.head-sport{
+     width: 600px;
+     height: 45px;
+     background-color: rgba(23, 23, 44, 0.986);
+}
+.txt-sport{
+     float: left;
+     text-align:right;
+     margin-top: 8px;
+     font-size: 25px;
+
+}
+.clo-sport{
+     background: none;
+     color: white;
+     border: none;
+     font-size: 32px;
+     float: right;
+}
+.btn-start{
+     width: 50px;
+}
+.cont-full-body{
+     width: 550px;
+     height: 480px;
+     overflow: auto;
+}
+.left{
+     float: left;
+     margin-left: auto;
+}
+.bg-lower{background-color: rgba(22, 22, 53, 0.767);position:fixed;top:0;left:0;z-index:1050;display:none;width:100%;height:100%;overflow:hidden;outline:0}
+.bg-abs{background-color: rgba(22, 22, 53, 0.767);position:fixed;top:0;left:0;z-index:1050;display:none;width:100%;height:100%;overflow:hidden;outline:0}
+.bg-adv{background-color: rgba(22, 22, 53, 0.767);position:fixed;top:0;left:0;z-index:1050;display:none;width:100%;height:100%;overflow:hidden;outline:0}
+.bg-arm{background-color: rgba(22, 22, 53, 0.767);position:fixed;top:0;left:0;z-index:1050;display:none;width:100%;height:100%;overflow:hidden;outline:0}
+.bg-foot{background-color: rgba(22, 22, 53, 0.767);position:fixed;top:0;left:0;z-index:1050;display:none;width:100%;height:100%;overflow:hidden;outline:0}
+.bg-sh{background-color: rgba(22, 22, 53, 0.767);position:fixed;top:0;left:0;z-index:1050;display:none;width:100%;height:100%;overflow:hidden;outline:0}

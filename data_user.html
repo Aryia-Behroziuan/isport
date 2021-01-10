@@ -1,0 +1,287 @@
+<html lang="en" class=""><head>
+     <meta charset="utf-8">
+     <title>Around | Sign In / Sign Up</title>
+     <!-- SEO Meta Tags-->
+     <meta name="description" content="Around - Multipurpose Bootstrap Template">
+     <meta name="keywords" content="bootstrap, business, consulting, coworking space, services, creative agency, dashboard, e-commerce, mobile app showcase, multipurpose, product landing, shop, software, ui kit, web studio, landing, html5, css3, javascript, gallery, slider, touch, creative">
+     <meta name="author" content="Createx Studio">
+     <!-- Viewport-->
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <!-- Favicon and Touch Icons-->
+     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+     <link rel="manifest" href="site.webmanifest">
+     <link rel="mask-icon" color="#5bbad5" href="safari-pinned-tab.svg">
+     <meta name="msapplication-TileColor" content="#766df4">
+     <meta name="theme-color" content="#ffffff">
+     <!-- Page loading styles-->
+     <style>
+       .cs-page-loading {
+         position: fixed;
+         top: 0;
+         right: 0;
+         bottom: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         -webkit-transition: all .4s .2s ease-in-out;
+         transition: all .4s .2s ease-in-out;
+         background-color: #fff;
+         opacity: 0;
+         visibility: hidden;
+         z-index: 9999;
+       }
+       .cs-page-loading.active {
+         opacity: 1;
+         visibility: visible;
+       }
+       .cs-page-loading-inner {
+         position: absolute;
+         top: 50%;
+         left: 0;
+         width: 100%;
+         text-align: center;
+         -webkit-transform: translateY(-50%);
+         transform: translateY(-50%);
+         -webkit-transition: opacity .2s ease-in-out;
+         transition: opacity .2s ease-in-out;
+         opacity: 0;
+       }
+       .cs-page-loading.active > .cs-page-loading-inner {
+         opacity: 1;
+       }
+       .cs-page-loading-inner > span {
+         display: block;
+         font-family: 'Inter', sans-serif;
+         font-size: 1rem;
+         font-weight: normal;
+         color: #737491;
+       }
+       .cs-page-spinner {
+         display: inline-block;
+         width: 2.75rem;
+         height: 2.75rem;
+         margin-bottom: .75rem;
+         vertical-align: text-bottom;
+         border: .15em solid #766df4;
+         border-right-color: transparent;
+         border-radius: 50%;
+         -webkit-animation: spinner .75s linear infinite;
+         animation: spinner .75s linear infinite;
+       }
+       @-webkit-keyframes spinner {
+         100% {
+           -webkit-transform: rotate(360deg);
+           transform: rotate(360deg);
+         }
+       }
+       @keyframes spinner {
+         100% {
+           -webkit-transform: rotate(360deg);
+           transform: rotate(360deg);
+         }
+       }
+       
+     </style>
+     <!-- Page loading scripts-->
+     <script type="text/javascript" async="" src="//www.googleadservices.com/pagead/conversion_async.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-WKV3GT5"></script><script>
+       (function () {
+         window.onload = function () {
+           var preloader = document.querySelector('.cs-page-loading');
+           preloader.classList.remove('active');
+           setTimeout(function () {
+             preloader.remove();
+           }, 2000);
+         };
+       })();
+       
+     </script>
+     <!-- Vendor Styles-->
+     <link rel="stylesheet" media="screen" href="https://around.createx.studio/vendor/simplebar/dist/simplebar.min.css">
+     <!-- Main Theme Styles + Bootstrap-->
+     <link rel="stylesheet" media="screen" href="https://around.createx.studio/css/theme.min.css">
+     <!-- Google Tag Manager-->
+     <script>
+       (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+       new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+       j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+       'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+       })(window,document,'script','dataLayer','GTM-WKV3GT5');
+     </script>
+   <link type="text/css" rel="stylesheet" charset="UTF-8" href="https://translate.googleapis.com/translate_static/css/translateelement.css"><meta http-equiv="origin-trial" content="A0kLJQ0EdHeF98R8bup/3ZtM4vmv/qTDf1T2qVOOrjHUMWqhDXGGrxHTI+nR/ynTxnFDdRTJBjlhgfvosygLLAoAAACOeyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGVhZHNlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjEwNjczMzQzLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><script src="https://www.googleadservices.com/pagead/conversion/717446051/?random=1609255885971&amp;cv=9&amp;fst=1609255885971&amp;num=1&amp;value=0&amp;label=F-BmCKDx2sUBEKO3jdYC&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;u_h=864&amp;u_w=1536&amp;u_ah=824&amp;u_aw=1536&amp;u_cd=24&amp;u_his=9&amp;u_tz=210&amp;u_java=false&amp;u_nplug=3&amp;u_nmime=4&amp;gtm=2wgbu0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=https%3A%2F%2Faround.createx.studio%2Fsignin-signup.html&amp;ref=https%3A%2F%2Faround.createx.studio%2Fblog-single-ns.html&amp;tiba=%D8%A7%D8%B7%D8%B1%D8%A7%D9%81%20%7C%20%D9%88%D8%B1%D9%88%D8%AF%20%D8%AB%D8%A8%D8%AA%20%D9%86%D8%A7%D9%85&amp;hn=www.googleadservices.com&amp;bttype=purchase&amp;async=1&amp;rfmt=3&amp;fmt=4"></script></head>
+   <!-- Body-->
+   <body class="" style="">
+     <!-- Google Tag Manager (noscript)-->
+     <noscript>
+       <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WKV3GT5" height="0" width="0" style="display: none; visibility: hidden;"></iframe>
+     </noscript>
+     <!-- Page loading spinner-->
+     
+     <main class="cs-page-wrapper">
+       <!-- Sign In Modal-->
+       <div class="modal fade" id="modal-signin" tabindex="-1" aria-hidden="true" style="display: none;">
+         <div class="modal-dialog modal-dialog-centered" role="document">
+           <div class="modal-content border-0">
+             <div class="cs-view show" id="modal-signin-view">
+               <div class="modal-header border-0 bg-dark px-4">
+                 <h4 class="modal-title text-light">Sign in</h4>
+                 <button class="close text-light" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+               </div>
+               <div class="modal-body px-4">
+                 <p class="font-size-ms text-muted">Sign in to your account using email and password provided during registration.</p>
+                 <form class="needs-validation" novalidate="">
+                   <div class="input-group-overlay form-group">
+                     <div class="input-group-prepend-overlay"><span class="input-group-text"><i class="fe-mail"></i></span></div>
+                     <input class="form-control prepended-form-control" type="email" placeholder="Email" required="">
+                   </div>
+                   <div class="input-group-overlay cs-password-toggle form-group">
+                     <div class="input-group-prepend-overlay"><span class="input-group-text"><i class="fe-lock"></i></span></div>
+                     <input class="form-control prepended-form-control" type="password" placeholder="Password" required="">
+                     <label class="cs-password-toggle-btn">
+                       <input class="custom-control-input" type="checkbox"><i class="fe-eye cs-password-toggle-indicator"></i><span class="sr-only">Show password</span>
+                     </label>
+                   </div>
+                   <div class="d-flex justify-content-between align-items-center form-group">
+                     <div class="custom-control custom-checkbox">
+                       <input class="custom-control-input" type="checkbox" id="keep-signed">
+                       <label class="custom-control-label" for="keep-signed">Keep me signed in</label>
+                     </div><a class="nav-link-style font-size-ms" href="password-recovery.html"></a>
+                   </div>
+                   <button class="btn btn-primary btn-block" type="submit">Sign in</button>
+                   <p class="font-size-sm pt-3 mb-0">Don't have an account? <a href="#" class="font-weight-medium" data-view="#modal-signup-view">Sign up</a></p>
+                 </form>
+               </div>
+             </div>
+             <div class="cs-view" id="modal-signup-view">
+               <div class="modal-header border-0 bg-dark px-4">
+                 <h4 class="modal-title text-light">Sign up</h4>
+                 <button class="close text-light" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+               </div>
+               <div class="modal-body px-4">
+                 <p class="font-size-ms text-muted">Registration takes less than a minute but gives you full control over your orders.</p>
+                 <form class="needs-validation" novalidate="">
+                   <div class="form-group">
+                     <input class="form-control" type="text" placeholder="Full name" required="">
+                   </div>
+                   <div class="form-group">
+                     <input class="form-control" type="text" placeholder="Email" required="">
+                   </div>
+                   <div class="cs-password-toggle form-group">
+                     <input class="form-control" type="password" placeholder="Password" required="">
+                     <label class="cs-password-toggle-btn">
+                       <input class="custom-control-input" type="checkbox"><i class="fe-eye cs-password-toggle-indicator"></i><span class="sr-only">Show password</span>
+                     </label>
+                   </div>
+                   <div class="cs-password-toggle form-group">
+                     <input class="form-control" type="password" placeholder="Confirm password" required="">
+                     <label class="cs-password-toggle-btn">
+                       <input class="custom-control-input" type="checkbox"><i class="fe-eye cs-password-toggle-indicator"></i><span class="sr-only">Show password</span>
+                     </label>
+                   </div>
+                   <button class="btn btn-primary btn-block" type="submit">Sign up</button>
+                   <p class="font-size-sm pt-3 mb-0">Already have an account? <a href="#" class="font-weight-medium" data-view="#modal-signin-view">Sign in</a></p>
+                 </form>
+               </div>
+             </div>
+             <div class="modal-body text-center px-4 pt-2 pb-4">
+               <hr>
+               <p class="font-size-sm font-weight-medium text-heading pt-4">Or sign in with</p><a class="social-btn sb-facebook sb-lg mx-1 mb-2" href="#"><i class="fe-facebook"></i></a><a class="social-btn sb-twitter sb-lg mx-1 mb-2" href="#"><i class="fe-twitter"></i></a><a class="social-btn sb-instagram sb-lg mx-1 mb-2" href="#"><i class="fe-instagram"></i></a><a class="social-btn sb-google sb-lg mx-1 mb-2" href="#"><i class="fe-google"></i></a>
+             </div>
+           </div>
+         </div>
+       </div>
+       <!-- Navbar (Solid background)-->
+       <!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page.-->
+       <!-- Page content-->
+       <div class="container py-5 py-md-7">
+         <div class="row align-items-center pt-2">
+           <div class="col-md-6 col-lg-5 mb-5 mb-md-0">
+             <div class="bg-secondary px-4 py-5 p-sm-5 rounded-lg">
+               <h1 class="h3 pt-1">Select your file</h1>
+               <p class="font-size-ms text-muted">Sign in to your account using email and password provided during registration.</p>
+               <form class="needs-validation" novalidate="">
+                 <div class="input-group-overlay form-group">
+                   <div class="input-group-prepend-overlay"><span class="input-group-text"><i class="fe-mail"></i></span></div>
+                   <input class="form-control prepended-form-control" type="email" placeholder="Email" required="">
+                 </div>
+                 <div class="input-group-overlay cs-password-toggle form-group">
+                   <div class="input-group-prepend-overlay"><span class="input-group-text"><i class="fe-lock"></i></span></div>
+                   <input class="form-control prepended-form-control" type="password" placeholder="Password" required="">
+                   <label class="cs-password-toggle-btn">
+                     <input class="custom-control-input" type="checkbox"><i class="fe-eye cs-password-toggle-indicator"></i><span class="sr-only">Show password</span>
+                   </label>
+                 </div>
+                 <div class="d-flex justify-content-between align-items-center form-group">
+                   <div class="custom-control custom-checkbox">
+                     <input class="custom-control-input" type="checkbox" id="keep-signed-2">
+                     <label class="custom-control-label" for="keep-signed-2">Keep me signed in</label>
+                   </div><a class="nav-link-style font-size-ms" href="password-recovery.html">Forgot password?</a>
+                 </div>
+                 <button class="btn btn-primary btn-block" type="button"><a class="btn btn-primary btn-block" href="Next.html">Log in with your file</a></button>
+                 <div class="border-top text-center mt-4 pt-4">
+                   <p class="font-size-sm font-weight-medium text-heading">Or sign in with</p><a class="social-btn sb-facebook sb-outline sb-lg mx-1 mb-2" href="#"><i class="fe-facebook"></i></a><a class="social-btn sb-twitter sb-outline sb-lg mx-1 mb-2" href="#"><i class="fe-twitter"></i></a><a class="social-btn sb-instagram sb-outline sb-lg mx-1 mb-2" href="#"><i class="fe-instagram"></i></a><a class="social-btn sb-google sb-outline sb-lg mx-1 mb-2" href="#"><i class="fe-google"></i></a>
+                 </div>
+               </form>
+             </div>
+           </div>
+           <div class="col-md-6 offset-lg-1">
+             <h2 class="h3">Create your file</h2>
+             <p class="font-size-ms text-muted">Registration takes less than a minute but gives you full control over your orders.</p>
+             <form class="row needs-validation" novalidate="">
+               <div class="col-sm-6 form-group">
+                 <label class="form-label" for="reg-fn">Name<sup class="text-danger ml-1">*</sup></label>
+                 <input class="form-control" type="text" required="" id="reg-fn">
+                 <div class="invalid-feedback">Please enter you first name!</div>
+               </div>
+               <div class="col-sm-6 form-group">
+                 <label class="form-label" for="reg-ln">Age<sup class="text-danger ml-1">*</sup></label>
+                 <input class="form-control" type="text" required="" id="reg-ln">
+                 <div class="invalid-feedback">Please enter you last name!</div>
+               </div>
+               <div class="col-sm-6 form-group">
+                 <label class="form-label" for="reg-email">Gender<sup class="text-danger ml-1">*</sup></label>
+                 <input class="form-control" type="email" required="" id="reg-email">
+                 <div class="invalid-feedback">Please enter a valid email address!</div>
+               </div>
+               <div class="col-sm-6 form-group">
+                 <label class="form-label" for="reg-phone">Height</label>
+                 <input class="form-control bg-image-0" type="text" id="reg-phone">
+               </div>
+               <div class="col-sm-6 form-group">
+                 <label class="form-label" for="reg-password">Weight<sup class="text-danger ml-1">*</sup></label>
+                 <input class="form-control" type="text" required="" id="reg-password">
+                 <div class="invalid-feedback">Please provide password!</div>
+               </div>
+               <div class="col-sm-6 form-group">
+                 <label class="form-label" for="reg-confirm-password">E-mail<sup class="text-danger ml-1">*</sup></label>
+                 <input class="form-control" type="text" required="" id="reg-confirm-password">
+                 <div class="invalid-feedback">Password doesn't match!</div>
+               </div>
+
+               <div class="col-sm-6 form-group">
+                    <label class="form-label" for="reg-confirm-password">Password<sup class="text-danger ml-1">*</sup></label>
+                    <input class="form-control" type="password" required="" id="reg-confirm-password">
+                    <div class="invalid-feedback">Password doesn't match!</div>
+               </div>
+
+               <div class="col-sm-6 pt-2">
+                    &nbsp<button class="btn btn-primary btn-block" type="submit">Save My File</button>
+               </div>
+             </form>
+           </div>
+         </div>
+       </div>
+     </main>
+
+     <!-- Back to top button--><a class="btn-scroll-top" href="#top" data-scroll=""><span class="btn-scroll-top-tooltip text-muted font-size-sm mr-2">Top</span><i class="btn-scroll-top-icon fe-arrow-up">   </i></a>
+     <!-- Vendor scrits: js libraries and plugins-->
+     <script src="https://around.createx.studio/vendor/jquery/dist/jquery.slim.min.js"></script>
+     <script src="https://around.createx.studio/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+     <script src="https://around.createx.studio/vendor/bs-custom-file-input/dist/bs-custom-file-input.min.js"></script>
+     <script src="https://around.createx.studio/vendor/simplebar/dist/simplebar.min.js"></script>
+     <script src="https://around.createx.studio/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+     <!-- Main theme script-->
+     <script src="https://around.createx.studio/js/theme.min.js"></script><div id="goog-gt-tt" class="skiptranslate" dir="rtl"><div style="padding: 8px;"><div><div class="logo"><img src="https://www.gstatic.com/images/branding/product/1x/translate_24dp.png" width="20" height="20" alt="Google ترجمه Google"></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">نوشتار اصلی</h1></div><div class="middle" style="padding: 8px;"><div class="original-text"></div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">مشارکت در بهبود ترجمه</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;"><div class="activity-root"></div></div></div><div class="status-message" style="display: none;"></div></div>
+   
+ <div class="goog-te-spinner-pos"><div class="goog-te-spinner-animation"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66"><circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle></svg></div></div></body></html>
